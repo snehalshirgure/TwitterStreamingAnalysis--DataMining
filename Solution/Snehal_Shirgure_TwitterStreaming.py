@@ -4,11 +4,11 @@ import operator
 import random
 from time import sleep
 
-
-ACCESS_TOKEN = '997031551-Vb9kPenCDJjXZNxrGwcQoP2p2PpDKwiFWwTXcXyj'
-ACCESS_SECRET = 'Agjo3m0QhzGve4pwDIlSVExFuwN6eVT3cuvkHS2qHzoYE'
-CONSUMER_KEY = 'SL0CgC416q05wuXJX5eDFWY14'
-CONSUMER_SECRET = 'THEJFqCNw9yMewj8kaROcUzOkjhFYxQ3xndgZRKqi06AXSXBsW'
+# put your twitter api credentials here -
+ACCESS_TOKEN = ''
+ACCESS_SECRET = ''
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
 
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 
